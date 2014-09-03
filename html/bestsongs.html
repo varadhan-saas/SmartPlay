@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>Smart Play</title>
+        <link rel="icon" href="../images/s.ico"/>
+        <link href="../css/menu.css" rel="stylesheet" type="text/css" />
+        <link href="../css/layout.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="../js/jquery-2.0.3.js"></script>
+        <script type="text/javascript" src="../js/xmlparse.js" ></script>
+        <script type="text/javascript" src="../js/dynamic_tablepage2.js" ></script>
+        <script type="text/javascript" src="../js/bootstrap.js"></script>  
+    </head>
+<body id="body1" onload="createDynamicTable('dynamictablepage2')">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><font color="#FFD700" face="Times New Roman">SMART PLAY</font></a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <!--<li><a class="text-muted" href="http://sriwebserver.cloudapp.net/html/homepage.html">Tamil Movies</a></li>-->
+                    <li class="active"><a class="text-warning" href="http://sriwebserver.cloudapp.net/html/bestsongs.html">Hindi Songs</a></li>
+                    <li><a class="text-warning" href="http://sriwebserver.cloudapp.net/html/bestsongs_English.html">English Songs</a></li>
+                    <li><a class="text-warning" href="https://www.dropbox.com/s/saskbggsl7sgb5k/SmartPlay-Mini.exe?dl=1"><font color="#FFD700" face="Times New Roman">SmartPlay-Mini</font><img src="../images/Download.png" style="width: 20px; height: 20px; margin-left:5px;" alt="mini SmartPlay" /></a></li>
+                    <li>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin-top:7px">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="YDPYKSGKWFKSG">
+                            <input type="image" src="../images/donate.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </li>
+                </ul>
+
+                <form class="navbar-form navbar-right" role="button">
+                    <div id="fb-root"></div>
+                    <script>
+                        $(function () {
+                            (function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (d.getElementById(id)) return;
+                                js = d.createElement(s); js.id = id;
+                                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=512407325462418&version=v2.0";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));
+                        });</script>
+                    <div style="margin-top: 7px;" class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="true"></div>
+                </form>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div style="margin: 0px 0px 60px 0px"></div>
+
+    <!--<div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+            <table border="0" width="100%" style="margin-top: 5px">
+                <tr>
+                    <td align="left">
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="YDPYKSGKWFKSG">
+                            <input type="image" src="../images/donate.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>-->
+    
+
+            <!-- 3. Section 3 (Repeat n times for the values obtained)-->
+            <div id="bodysection" class="table-respponsive">
+                <!--<table id="dynamictablepage2" border="1" class="table table-striped">
+                </table>-->
+
+                <div style="width:90%; margin-left:auto;">
+                    <ul id="dynamictablepage2" class="nav navbar-nav"></ul>
+                </div>
+
+            </div>
+    
+
+            <!-- 4. Section 4 (Footer section) -->
+            <!--<button type="button" onclick="getData()">Click Me!</button>-->
+</body>
+
+</html>

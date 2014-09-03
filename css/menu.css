@@ -1,0 +1,26 @@
+#navbar {
+    position: relative;
+    background-color: #222;
+    border-radius: 5px;
+}
+
+#table_navbar {
+    overflow: auto;
+    background-color: #222;
+    border-radius: 5px;
+}
+
+#trnavbar {
+    overflow: auto;
+    background-color: #222;
+}
+
+#tdnavbar {
+    color: white
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+}
+
+.menubar {
+    color: white;
+}
